@@ -16,7 +16,8 @@
     "angular-ui-router": "~0.2.15",
     "simple-line-icons": "^2.4.1",
     "animate.css": "^3.5.2",
-    "wow": "wowjs#^1.1.2"
+    "wow": "wowjs#^1.1.2",
+    "parallax.js": "^1.4.2"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
