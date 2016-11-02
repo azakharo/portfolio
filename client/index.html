@@ -7,12 +7,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <base href="/">
-    <title></title>
+    <title>Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(client) app/vendor.css -->
       <!-- bower:css -->
+      <link rel="stylesheet" href="bower_components/simple-line-icons/css/simple-line-icons.css" />
+      <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
       <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,client}) app/app.css -->
@@ -20,6 +22,7 @@
       <!-- injector:css -->
       <!-- endinjector -->
     <!-- endbuild -->
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
   </head>
   <body ng-app="projectsApp">
     <!--[if lt IE 7]>
@@ -60,9 +63,9 @@
       <script src="socket.io-client/socket.io.js"></script>
     <!-- endbuild -->
 
-        
+
         <!-- build:js(.tmp) app/app.js -->
-        
+
         <script src="app/app.js"></script>
           <!-- injector:js -->
           <script src="app/account/account.js"></script>
