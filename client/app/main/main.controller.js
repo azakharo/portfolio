@@ -12,5 +12,6 @@ angular.module('projectsApp')
       progressBar.init();
       layout = MyLayout();
       layout.init();
+      $('.parallax-window').parallax({imageSrc: 'assets/images/1920x1080/01.jpg'});
     }, 100);
   });
