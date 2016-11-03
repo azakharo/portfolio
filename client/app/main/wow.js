@@ -1,5 +1,5 @@
 // Wow
-var Wow = function() {
+function MyWow() {
     "use strict";
 
     // Handle Wow
@@ -11,15 +11,11 @@ var Wow = function() {
 		    tablet:       false       // trigger animations on tablet devices (true is default)
 		});
 		wow.init();
-    }
+    };
 
     return {
         init: function() {
             handleWow(); // initial setup for counter
         }
-    }
-}();
-
-$(document).ready(function() {
-    Wow.init();
-});
+    };
+}

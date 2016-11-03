@@ -1,4 +1,6 @@
-var Layout = function () {
+"use strict";
+
+function MyLayout() {
 
   // detect mobile device
   var isMobileDevice = function () {
@@ -163,8 +165,4 @@ var Layout = function () {
       };
     }
   };
-}();
-
-$(document).ready(function () {
-  Layout.init();
-});
+}
