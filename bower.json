@@ -17,7 +17,8 @@
     "simple-line-icons": "^2.4.1",
     "animate.css": "^3.5.2",
     "wow": "wowjs#^1.1.2",
-    "parallax.js": "^1.4.2"
+    "parallax.js": "^1.4.2",
+    "jquery-migrate": "^3.0.0"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
