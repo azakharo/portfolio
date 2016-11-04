@@ -47,5 +47,19 @@ angular.module('projectsApp')
       // Back to top
       ///////////////////////////////////////////////////////////////
 
+
+      //*************************************************************
+      // Masonry
+
+      var $container = $('.masonry-grid');
+      $container.masonry({
+        itemSelector: '.masonry-grid-item', // use a separate class for itemSelector, other than .col-
+        columnWidth: '.masonry-grid-sizer',
+        percentPosition: true
+      });
+
+      // Masonry
+      //*************************************************************
+
     }, 100);
   });
