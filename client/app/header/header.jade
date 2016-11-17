@@ -1,0 +1,31 @@
+header.header.navbar-fixed-top
+  // Navbar
+  nav.navbar(role='navigation')
+    .container
+      // Brand and toggle get grouped for better mobile display
+      .menu-container.js_nav-item
+        button.navbar-toggle(type='button', data-toggle='collapse', data-target='.nav-collapse')
+          span.sr-only Вкл/выкл навигацию
+          span.toggle-icon
+        // Logo
+        .logo
+          a.logo-wrap(href='#body')
+            img.logo-img.logo-img-main(src='assets/images/logo.png', alt='Мой логотип')
+            img.logo-img.logo-img-active(src='assets/images/logo-dark.png', alt='Мой логотип')
+        // End Logo
+      // Collect the nav links, forms, and other content for toggling
+      .collapse.navbar-collapse.nav-collapse
+        .menu-container
+          ul.nav.navbar-nav.navbar-nav-right
+            li.js_nav-item.nav-item
+              a.nav-item-child.nav-item-hover(href='#body') Начало
+            li.js_nav-item.nav-item
+              a.nav-item-child.nav-item-hover(href='#about') Обо мне
+            li.js_nav-item.nav-item
+              a.nav-item-child.nav-item-hover(href='#experience') Опыт
+            li.js_nav-item.nav-item
+              a.nav-item-child.nav-item-hover(href='#work') Примеры работ
+            li.js_nav-item.nav-item
+              a.nav-item-child.nav-item-hover(href='#contact') Контакты
+      // End Navbar Collapse
+  // Navbar
