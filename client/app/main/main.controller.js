@@ -8,8 +8,6 @@ angular.module('projectsApp')
     $timeout(function () {
       wow = MyWow();
       wow.init();
-      progressBar = MyProgressBar();
-      progressBar.init();
       layout = MyLayout();
       layout.init();
 
