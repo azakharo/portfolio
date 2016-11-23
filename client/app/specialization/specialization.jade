@@ -2,31 +2,33 @@
   .row
     .col-sm-3.sm-margin-b-30
       .text-right.sm-text-left
-        h2.margin-b-0 Experience
-        p Batman would be jealous.
+        h2.margin-b-0 Специализация
+        p
+          | Детали можно узнать в&nbsp;
+          a.resume-link(href="{{resumeUrl}}") моём резюме
     .col-sm-8.col-sm-offset-1
       .row.row-space-2.margin-b-4
         .col-md-4.md-margin-b-4
           .service(data-height='height')
             .service-element
-              i.service-icon.icon-chemistry
+              img.ang-logo-icon(src="assets/images/ang_logo.png", alt="Angular logo")
             .service-info
-              h3 HTML5/CSS3
-              p.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
-            a.content-wrapper-link(href='#')
+              h3 Front-end
+              p.margin-b-5 Разработка на Angular 1.5. Адаптивная вёрстка с помощью Flexbox. Использование последней версии Javascript - ES6. Быстрая генерация приложений с помощью Angular Fullstack Generator-а. Использую Jade, LESS, Grunt и др.
+            a.content-wrapper-link(href='{{resumeUrl}}')
         .col-md-4.md-margin-b-4
           .service.bg-color-base.wow.zoomIn(data-height='height', data-wow-duration='.3', data-wow-delay='.1s')
             .service-element
-              i.service-icon.color-white.icon-screen-tablet
+              i.service-icon.color-white.fa.fa-desktop
             .service-info
-              h3.color-white Photoshop
-              p.color-white.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
-            a.content-wrapper-link(href='#')
+              h3.color-white Back-end
+              p.color-white.margin-b-5 Разработка на Node.js, Express, MongoDB. Использую socket.io. Есть опыт разработки REST-сервисов на Python/Django/MySQL.
+            a.content-wrapper-link(href='{{resumeUrl}}')
         .col-md-4
           .service(data-height='height')
             .service-element
               i.service-icon.icon-badge
             .service-info
-              h3 Front-end
-              p.margin-b-5 Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor
-            a.content-wrapper-link(href='#')
+              h3 Разное
+              p.margin-b-5 Есть опыт в моделировании физических процессов, автоматизации, разработке для Windows Phone, программировании микроконтроллеров Siemens и др.
+            a.content-wrapper-link(href='{{resumeUrl}}')
