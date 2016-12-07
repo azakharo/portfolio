@@ -7,28 +7,16 @@ app.component('samples', {
   controller: 'SamplesCtrl'
 });
 
-app.controller('SamplesCtrl', function ($scope, $timeout) {
+app.controller('SamplesCtrl', function ($timeout) {
 
-  $scope.samples = [
+  this.samples = [
     {
-      name: 'Javascript, ES6',
-      value: 65
-    },
-    {
-      name: 'Angular.js (1.5)',
-      value: 75
-    },
-    {
-      name: 'HTML5 (Jade)',
-      value: 70
-    },
-    {
-      name: 'CSS (Less)',
-      value: 70
-    },
-    {
-      name: 'Node.js, Express, MongoDB',
-      value: 65
+      name: 'Dashboard',
+      imgPath: 'assets/images/397x300/03.jpg',
+      url: 'https://dashboard-page2.herokuapp.com',
+      desc: 'Мордовия, пилотный проект системы обработки ЕСЭК (Единой Социальной Электронной Карты) для транспортных приложений.',
+      tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox'],
+      year: 2015
     }
   ];
 
