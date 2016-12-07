@@ -8,6 +8,30 @@ app.component('about', {
 });
 
 app.controller('AboutCtrl', function ($scope, $timeout) {
+
+  $scope.skills = [
+    {
+      name: 'Javascript, ES6',
+      value: 65
+    },
+    {
+      name: 'Angular.js (1.5)',
+      value: 75
+    },
+    {
+      name: 'HTML5 (Jade)',
+      value: 70
+    },
+    {
+      name: 'CSS (Less)',
+      value: 70
+    },
+    {
+      name: 'Node.js, Express, MongoDB',
+      value: 65
+    }
+  ];
+
   $timeout(function () {
     $('.progress').each(function () {
       $(this).appear(function () {
@@ -24,4 +48,5 @@ app.controller('AboutCtrl', function ($scope, $timeout) {
       });
     });
   }, 100);
+
 });
