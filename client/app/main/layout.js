@@ -118,23 +118,6 @@ function MyLayout() {
     });
   };
 
-  // Handle Work Popup
-  var handleWorkPopup = function () {
-    var overlay = $('.work-popup-overlay'),
-      close = $('.work-popup-close'),
-      trigger = $('.work-popup-trigger');
-
-    trigger.on('click', function () {
-      $(this).find('.work-popup-overlay').removeClass('work-popup-overlay-show');
-      $(this).find('.work-popup-overlay').addClass('work-popup-overlay-show');
-    });
-
-    close.on('click', function (e) {
-      e.stopPropagation();
-      overlay.removeClass('work-popup-overlay-show');
-    });
-  };
-
   return {
     init: function () {
       // initial setup for fixed header
@@ -142,7 +125,6 @@ function MyLayout() {
       handleOnePageHeader(); // initial header
       handleCarousel(); // initial setup for carousel
       handleHeight(); // initial setup for group element height
-      handleWorkPopup(); // initial setup for group work popup
 
       // handle minimized header on page scroll
       $(window).scroll(function () {
