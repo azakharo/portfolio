@@ -32,7 +32,7 @@ app.controller('SamplesCtrl', function ($timeout) {
       name: 'ДО-РА, мобильный дозиметр-радиометр',
       imgPath: 'assets/images/dora.png',
       url: 'http://www.windowsphone.com/ru-ru/store/app/do-ra/237e80e8-e719-4fcf-a824-db7db15c129f',
-      desc: 'Мобильное приложение для Windows Phone. Мобильное приложение на JavaME. Более подробная информация на do-ra.ru',
+      desc: 'Мобильное приложение для Windows Phone. Мобильное приложение на JavaME. Измерение текущего значения радиационного фона с помощью датчика, подключенного к смартфону. Более подробная информация на do-ra.ru',
       tags: ['windows-phone', 'C#', 'Silverlight'],
       year: 2011,
       customer: 'Интерсофт-Евразия'
@@ -45,6 +45,15 @@ app.controller('SamplesCtrl', function ($timeout) {
       tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox'],
       year: 2015,
       customer: 'Правительство Республики Мордовия'
+    },
+    {
+      name: 'Безопасный Город',
+      imgPath: 'assets/images/bg.png',
+      url: 'https://www.microsoft.com/en-us/store/p/%d0%9c%d0%be%d0%b1%d0%b8%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%be%d0%bd%d0%b8%d1%82%d0%be%d1%80/9nblgggzjd45',
+      desc: 'Приложение "Мобильный Монитор" для Windows Phone. Измерение различных параметров состояния окружающей среды с помощью датчиков, подключенных к смартфону.',
+      tags: ['windows-phone', 'C#', 'Silverlight'],
+      year: 2012,
+      customer: 'ИТЦ Система-Саров'
     }
   ];
 
