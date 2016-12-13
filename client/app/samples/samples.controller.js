@@ -27,6 +27,15 @@ app.controller('SamplesCtrl', function ($timeout) {
       tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox'],
       year: 2015,
       customer: 'Правительство Республики Мордовия'
+    },
+    {
+      name: 'ДО-РА, мобильный дозиметр-радиометр',
+      imgPath: 'assets/images/dora.png',
+      url: 'http://www.windowsphone.com/ru-ru/store/app/do-ra/237e80e8-e719-4fcf-a824-db7db15c129f',
+      desc: 'Мобильное приложение для Windows Phone. Мобильное приложение на JavaME. Более подробная информация на do-ra.ru',
+      tags: ['windows-phone', 'C#', 'Silverlight'],
+      year: 2011,
+      customer: 'Интерсофт-Евразия'
     }
   ];
 
