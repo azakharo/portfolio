@@ -18,6 +18,15 @@ app.controller('SamplesCtrl', function ($timeout) {
       tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox'],
       year: 2015,
       customer: 'Правительство Республики Мордовия'
+    },
+    {
+      name: 'Мониторинг оборудования на автобусах/троллейбусах',
+      imgPath: 'assets/images/uptime.png',
+      url: 'https://aza-uptime.herokuapp.com',
+      desc: 'Мордовия, пилотный проект системы обработки ЕСЭК (Единой Социальной Электронной Карты) для транспортных приложений.',
+      tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox'],
+      year: 2015,
+      customer: 'Правительство Республики Мордовия'
     }
   ];
 
