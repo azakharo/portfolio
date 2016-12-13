@@ -36,6 +36,15 @@ app.controller('SamplesCtrl', function ($timeout) {
       tags: ['windows-phone', 'C#', 'Silverlight'],
       year: 2011,
       customer: 'Интерсофт-Евразия'
+    },
+    {
+      name: 'АРМ организации поставщика транспортных услуг',
+      imgPath: 'assets/images/acceptant1.png',
+      url: 'https://aza-acceptant.herokuapp.com/#/arm/accounting/stat-common-chart',
+      desc: 'Мордовия, пилотный проект системы обработки ЕСЭК (Единой Социальной Электронной Карты) для транспортных приложений.',
+      tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox'],
+      year: 2015,
+      customer: 'Правительство Республики Мордовия'
     }
   ];
 
