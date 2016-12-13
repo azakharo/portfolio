@@ -3,17 +3,17 @@
     img.full-width.img-responsive(src='{{ $ctrl.sample.imgPath }}', alt='{{ $ctrl.sample.name + " лого" }}')
   .work-popup-overlay
     .work-popup-content
-      a.work-popup-close(href='javascript:void(0);') Закрыть
+      a.work-popup-close(href='javascript:void(0);') X
       .margin-b-30
         h3.margin-b-5 {{ $ctrl.sample.name }}
-        a(href="{{ $ctrl.sample.url }}") Демо
+        a.sample-url(href="{{ $ctrl.sample.url }}", target="_blank") Демо
       .row
         .col-sm-8.work-popup-content-divider.sm-margin-b-20
           .margin-t-10.sm-margin-t-0
             p {{ $ctrl.sample.desc }}
             ul.list-inline.work-popup-tag
               li.work-popup-tag-item(ng-repeat="tag in $ctrl.sample.tags")
-                a.work-popup-tag-link(href='#') {{ tag }}
+                a.work-popup-tag-link(href='javascript:void(0);') {{ tag }}
         .col-sm-4
           .margin-t-10.sm-margin-t-0
             p.margin-b-5

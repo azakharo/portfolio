@@ -12,11 +12,12 @@ app.controller('SamplesCtrl', function ($timeout) {
   this.samples = [
     {
       name: 'Dashboard',
-      imgPath: 'assets/images/397x300/03.jpg',
+      imgPath: 'assets/images/dashboard.png',
       url: 'https://dashboard-page2.herokuapp.com',
       desc: 'Мордовия, пилотный проект системы обработки ЕСЭК (Единой Социальной Электронной Карты) для транспортных приложений.',
       tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox'],
-      year: 2015
+      year: 2015,
+      customer: 'Правительство Республики Мордовия'
     }
   ];
 

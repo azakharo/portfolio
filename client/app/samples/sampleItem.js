@@ -10,5 +10,5 @@ app.component('sampleItem', {
   }
 });
 
-app.controller('SampleItemCtrl', function ($scope) {
+app.controller('SampleItemCtrl', function () {
 });
