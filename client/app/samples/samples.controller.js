@@ -54,6 +54,15 @@ app.controller('SamplesCtrl', function ($timeout) {
       tags: ['windows-phone', 'C#', 'Silverlight'],
       year: 2012,
       customer: 'ИТЦ Система-Саров'
+    },
+    {
+      name: 'Система интернет-голосования Votum',
+      imgPath: 'assets/images/votum.png',
+      url: 'http://sarov-itc.ru/projects/51765498140ba0a1440000cd/',
+      desc: 'Распределенная система дистанционного электронного голосования с использованием нескольких каналов передачи информации (WEB, SMS, e-mail) и архитектурой SOA (Service Oriented Architecture).',
+      tags: ['Django', 'Python', 'Django REST Framework'],
+      year: 2011,
+      customer: 'ЦИК РФ'
     }
   ];
 
