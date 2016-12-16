@@ -63,6 +63,15 @@ app.controller('SamplesCtrl', function ($timeout) {
       tags: ['Django', 'Python', 'Django REST Framework'],
       year: 2011,
       customer: 'ЦИК РФ'
+    },
+    {
+      name: 'Веб-сервис для распознавания русской речи',
+      imgPath: 'assets/images/asr.png',
+      url: 'http://asr.sarov-itc.ru/',
+      desc: 'ASR (Automatic Speech Recognition) HTTP. HTTP-интерфейс к распознавателю речи, который разрабатывался в «ИТЦ Система-Саров»',
+      tags: ['Django', 'Python'],
+      year: 2011,
+      customer: 'ИТЦ Система-Саров'
     }
   ];
 
