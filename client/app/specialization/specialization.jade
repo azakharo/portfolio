@@ -5,7 +5,7 @@
         h2.margin-b-0 Специализация
         p
           | Детали можно узнать в&nbsp;
-          a.resume-link(href="{{resumeUrl}}", target='_blank') моём резюме
+          a.resume-link(href="{{$ctrl.resumeUrl}}", target='_blank') моём резюме
     .col-sm-8.col-sm-offset-1
       .row.row-space-2.margin-b-4
         .col-md-4.md-margin-b-4
@@ -15,7 +15,7 @@
             .service-info
               h3 Front-end
               p.margin-b-5 Разработка на Angular 1.5. Адаптивная вёрстка с помощью Flexbox. Использование последней версии Javascript - ES6. Быстрая генерация приложений с помощью Angular Fullstack Generator. Использую Jade, LESS, Grunt и другие инструменты.
-            a.content-wrapper-link(href='{{resumeUrl}}', target='_blank')
+            a.content-wrapper-link(href='{{$ctrl.resumeUrl}}', target='_blank')
         .col-md-4.md-margin-b-4
           .service.bg-color-base.wow.zoomIn(data-height='height', data-wow-duration='.3', data-wow-delay='.1s')
             .service-element
@@ -23,7 +23,7 @@
             .service-info
               h3.color-white Back-end
               p.color-white.margin-b-5 Разработка на Node.js, Express, MongoDB. Использую socket.io. Есть опыт разработки REST-сервисов на Python/Django/MySQL.
-            a.content-wrapper-link(href='{{resumeUrl}}', target='_blank')
+            a.content-wrapper-link(href='{{$ctrl.resumeUrl}}', target='_blank')
         .col-md-4
           .service(data-height='height')
             .service-element
@@ -31,4 +31,4 @@
             .service-info
               h3 Разное
               p.margin-b-5 Есть опыт в моделировании физических процессов, автоматизации, разработке для Windows Phone, программировании микроконтроллеров Siemens...
-            a.content-wrapper-link(href='{{resumeUrl}}', target='_blank')
+            a.content-wrapper-link(href='{{$ctrl.resumeUrl}}', target='_blank')

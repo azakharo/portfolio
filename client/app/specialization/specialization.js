@@ -5,6 +5,6 @@ angular.module('projectsApp')
     templateUrl: 'app/specialization/specialization.html',
     controller: 'SpecializationCtrl'
   })
-  .controller('SpecializationCtrl', function ($scope) {
-    $scope.resumeUrl = 'http://nn.hh.ru/resume/90742300ff0355cb510039ed1f41726d417476';
+  .controller('SpecializationCtrl', function () {
+    this.resumeUrl = 'http://nn.hh.ru/resume/90742300ff0355cb510039ed1f41726d417476';
   });
