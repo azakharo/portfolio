@@ -79,12 +79,12 @@ app.controller('SamplesCtrl', function ($timeout) {
     handleWorkPopup();
 
     // Init masonry
-    var $container = $('.masonry-grid');
-    $container.masonry({
-      itemSelector: '.masonry-grid-item', // use a separate class for itemSelector, other than .col-
-      columnWidth: '.masonry-grid-sizer',
-      percentPosition: true
-    });
+    //var $container = $('.masonry-grid');
+    //$container.masonry({
+    //  itemSelector: '.masonry-grid-item', // use a separate class for itemSelector, other than .col-
+    //  columnWidth: '.masonry-grid-sizer',
+    //  percentPosition: true
+    //});
   }, 100);
 
   function handleWorkPopup() {

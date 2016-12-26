@@ -6,19 +6,6 @@
         p Кликните на картинке для получения деталей
     .col-sm-8.col-sm-offset-1
       // Masonry Grid
-      .masonry-grid.row.row-space-2
-        .masonry-grid-sizer.col-xs-6.col-sm-6.col-md-1
-        .masonry-grid-item.col-xs-12.col-sm-6.col-md-4
-          sample-item(sample="$ctrl.samples[0]")
-        .masonry-grid-item.col-xs-12.col-sm-6.col-md-8.margin-b-4
-          sample-item(sample="$ctrl.samples[1]")
-        .masonry-grid-item.col-xs-12.col-sm-6.col-md-4.margin-b-4
-          sample-item(sample="$ctrl.samples[2]")
-        .masonry-grid-item.col-xs-12.col-sm-6.col-md-4.md-margin-b-4
-          sample-item(sample="$ctrl.samples[3]")
-        .masonry-grid-item.col-xs-12.col-sm-6.col-md-4.md-margin-b-4
-          sample-item(sample="$ctrl.samples[4]")
-        .masonry-grid-item.col-xs-12.col-sm-6.col-md-4.md-margin-b-4
-          sample-item(sample="$ctrl.samples[5]")
-        .masonry-grid-item.col-xs-12.col-sm-6.col-md-4
-          sample-item(sample="$ctrl.samples[6]")
+      .masonry-grid2.w100
+        .masonry-grid-item2(ng-repeat="sample in $ctrl.samples")
+          sample-item(sample="sample")
