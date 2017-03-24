@@ -1,5 +1,8 @@
 'use strict';
 
+var resumeUrl = 'http://nn.hh.ru/resume/90742300ff0355cb510039ed1f41726d417476';
+
+
 angular.module('projectsApp', [
   'ngCookies',
   'ngResource',
@@ -7,9 +10,6 @@ angular.module('projectsApp', [
   'btford.socket-io',
   'ui.router'
 ])
-  //.constant('MyConstants', {
-  //  resumeUrl: 'http://nn.hh.ru/resume/90742300ff0355cb510039ed1f41726d417476'
-  //})
 
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider
