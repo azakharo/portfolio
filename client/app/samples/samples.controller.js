@@ -47,6 +47,33 @@ app.controller('SamplesCtrl', function ($timeout) {
       customer: 'Правительство Республики Мордовия'
     },
     {
+      name: 'Панель тревог',
+      imgPath: 'assets/images/alarm-panel.png',
+      url: resumeUrl,
+      desc: 'Проект "Акустический мониторинг".',
+      tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox', 'node.js', 'express.js', 'mongodb', 'socket.io'],
+      year: 2016,
+      customer: 'Муниципалитеты городов Воронеж, Кострома, Архангельск, Калуга, Московский ЦОДД'
+    },
+    {
+      name: 'Detector UI',
+      imgPath: 'assets/images/detector_ui.png',
+      url: resumeUrl,
+      desc: 'Проект "Акустический мониторинг". Административный интерфейс для управления настройками акустического детектора, аналогичный интерфейсу управления обычным WiFi-роутером. А также back-end.',
+      tags: ['angular.js', 'javascript', 'grunt', 'flexbox', 'node.js', 'express.js', 'coffeescript', 'socket.io'],
+      year: 2015,
+      customer: 'Муниципалитеты городов Воронеж, Кострома, Архангельск, Калуга, Московский ЦОДД'
+    },
+    {
+      name: 'CO2',
+      imgPath: 'assets/images/co2.png',
+      url: resumeUrl,
+      desc: 'Проект "Мониторинг содержания CO2 в воздухе офиса". Front-end and back-end (angular, node).',
+      tags: ['angular.js', 'javascript', 'es6', 'flexbox', 'grunt', 'node.js', 'express.js', 'socket.io'],
+      year: 2016,
+      customer: 'ИТЦ Система-Саров'
+    },
+    {
       name: 'Безопасный Город',
       imgPath: 'assets/images/bg.png',
       url: 'https://www.microsoft.com/en-us/store/p/%d0%9c%d0%be%d0%b1%d0%b8%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%be%d0%bd%d0%b8%d1%82%d0%be%d1%80/9nblgggzjd45',
