@@ -1,3 +1,2 @@
 * Make the logo bigger or replace completely.
-* Change foto to mine.
 * Change the typography(?)
