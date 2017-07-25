@@ -16,15 +16,15 @@ app.controller('AboutCtrl', function ($scope, $timeout) {
     },
     {
       name: 'Angular.js (1.x)',
-      value: 75
+      value: 80
     },
     {
       name: 'HTML5 (Jade)',
-      value: 70
+      value: 85
     },
     {
       name: 'CSS (Less)',
-      value: 70
+      value: 80
     },
     {
       name: 'Node.js, Express, MongoDB',
