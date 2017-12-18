@@ -12,22 +12,26 @@ app.controller('AboutCtrl', function ($scope, $timeout) {
   $scope.skills = [
     {
       name: 'Javascript, ES6',
-      value: 70
-    },
-    {
-      name: 'Angular.js (1.x)',
-      value: 80
-    },
-    {
-      name: 'HTML5 (Jade)',
       value: 85
     },
     {
-      name: 'CSS (Less)',
+      name: 'AngularJS',
       value: 80
     },
     {
-      name: 'Node.js, Express, MongoDB',
+      name: 'React.js, Redux',
+      value: 65
+    },
+    {
+      name: 'HTML5, Pug (Jade)',
+      value: 85
+    },
+    {
+      name: 'CSS, Less',
+      value: 80
+    },
+    {
+      name: 'Node.js, Express.js, MongoDB',
       value: 75
     }
   ];

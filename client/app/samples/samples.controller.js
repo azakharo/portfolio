@@ -20,6 +20,15 @@ app.controller('SamplesCtrl', function ($timeout) {
       customer: 'Правительство Республики Мордовия'
     },
     {
+      name: 'Сервис Речевой Аналитики',
+      imgPath: 'assets/images/mentor.png',
+      url: 'https://mentor.sarov-itc.ru',
+      desc: 'Frontend на React.js, Redux, RxJS. Прослушивание записей телефонных переговоров операторов. Просмотр и изучение результатов анализа разговоров.',
+      tags: ['React.js', 'Redux', 'RxJS', 'es6', 'Webpack', 'create-react-app'],
+      year: 2017,
+      customer: 'ИТЦ Система-Саров'
+    },
+    {
       name: 'Мониторинг оборудования на автобусах/троллейбусах',
       imgPath: 'assets/images/uptime.png',
       url: 'https://aza-uptime.herokuapp.com',
