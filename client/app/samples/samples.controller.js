@@ -11,6 +11,15 @@ app.controller('SamplesCtrl', function ($timeout) {
 
   this.samples = [
     {
+      name: 'Сервис Речевой Аналитики',
+      imgPath: 'assets/images/mentor.png',
+      url: 'https://mentor-demo.herokuapp.com/',
+      desc: 'Frontend на React.js, Redux, RxJS. Прослушивание записей телефонных переговоров, просмотр и изучение результатов анализа речи. Wave-форма, тайм-лайны.',
+      tags: ['React.js', 'Redux', 'RxJS', 'es6', 'Webpack', 'create-react-app'],
+      year: 2017,
+      customer: 'ИТЦ Система-Саров'
+    },
+    {
       name: 'Dashboard',
       imgPath: 'assets/images/dashboard.png',
       url: 'https://dashboard-page2.herokuapp.com',
@@ -18,15 +27,6 @@ app.controller('SamplesCtrl', function ($timeout) {
       tags: ['angular.js', 'javascript', 'es6', 'jade', 'less', 'grunt', 'flexbox'],
       year: 2015,
       customer: 'Правительство Республики Мордовия'
-    },
-    {
-      name: 'Сервис Речевой Аналитики',
-      imgPath: 'assets/images/mentor.png',
-      url: 'https://mentor.sarov-itc.ru',
-      desc: 'Frontend на React.js, Redux, RxJS. Прослушивание записей телефонных переговоров операторов. Просмотр и изучение результатов анализа разговоров.',
-      tags: ['React.js', 'Redux', 'RxJS', 'es6', 'Webpack', 'create-react-app'],
-      year: 2017,
-      customer: 'ИТЦ Система-Саров'
     },
     {
       name: 'Мониторинг оборудования на автобусах/троллейбусах',
