@@ -11,6 +11,15 @@ app.controller('SamplesCtrl', function ($timeout) {
 
   this.samples = [
     {
+      name: 'Новая консоль управления Облака КРОК',
+      imgPath: 'assets/images/c2-ui-demo.png',
+      url: 'https://www.loom.com/share/68b021f3378b4d56a37df0957fe32291',
+      desc: 'Frontend на React.js, Redux. Интерфейс для управления ресурсами в облаке: создание виртуальных машин, управление дисками, выделение машинам "белых" IP-шников, организация подсетей, управление доступом и многое другое',
+      tags: ['React.js', 'Redux', 'redux-thunk', 'Babel', 'Webpack', 'axios', 'i18next', 'postcss', 'eslint', 'prettier', 'recharts', 'dnd', 'jest', 'puppeteer', 'day.js', 'formik + yup'],
+      year: 2019,
+      customer: 'КРОК'
+    },
+    {
       name: 'Сервис Речевой Аналитики',
       imgPath: 'assets/images/mentor.png',
       url: 'https://mentor-demo.herokuapp.com/',
