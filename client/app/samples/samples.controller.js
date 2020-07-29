@@ -22,7 +22,7 @@ app.controller('SamplesCtrl', function ($timeout) {
     {
       name: 'Сервис Речевой Аналитики',
       imgPath: 'assets/images/mentor.png',
-      url: 'https://mentor-demo.herokuapp.com/',
+      url: 'https://mentor-pi.vercel.app/',
       desc: 'Frontend на React.js, Redux, RxJS. Прослушивание записей телефонных переговоров, просмотр и изучение результатов анализа речи. Wave-форма, тайм-лайны.',
       tags: ['React.js', 'Redux', 'RxJS', 'es6', 'Webpack', 'create-react-app'],
       year: 2017,
