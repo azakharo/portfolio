@@ -13,7 +13,7 @@ app.controller('SamplesCtrl', function ($timeout) {
     {
       name: 'Новая консоль управления Облака КРОК',
       imgPath: 'assets/images/c2-ui-demo.png',
-      url: 'https://www.loom.com/share/68b021f3378b4d56a37df0957fe32291',
+      urls: ['https://www.loom.com/share/68b021f3378b4d56a37df0957fe32291', 'https://www.loom.com/share/a5b9f049a87145d3a4c1349454a4a2a8'],
       desc: 'Frontend на React.js, Redux. Интерфейс для управления ресурсами в облаке: создание виртуальных машин, управление дисками, выделение машинам "белых" IP-шников, организация подсетей, управление доступом и многое другое',
       tags: ['React.js', 'Redux', 'redux-thunk', 'Babel', 'Webpack', 'axios', 'i18next', 'postcss', 'eslint', 'prettier', 'recharts', 'dnd', 'jest', 'puppeteer', 'day.js', 'formik + yup'],
       year: 2019,
