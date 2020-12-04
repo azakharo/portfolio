@@ -11,6 +11,15 @@ app.controller('SamplesCtrl', function ($timeout) {
 
   this.samples = [
     {
+      name: 'Новая админка Cloudike',
+      imgPath: 'assets/images/cloudike-admin-ui-users.png',
+      url: 'https://www.loom.com/share/57abda2591c1470db5e8e9209f820cd8',
+      desc: 'Frontend на React.js. Material UI. Интерфейс для управления бэкендом Cloudike. Что такое Cloudike? - cloudike.com',
+      tags: ['React.js', 'material-ui', 'Redux', 'redux-thunk', 'Babel', 'Webpack', 'axios', 'i18next', 'eslint', 'prettier', 'dnd', 'jest', 'moment.js', 'formik + yup'],
+      year: 2020,
+      customer: 'ASD Technologies'
+    },
+    {
       name: 'Новая консоль управления Облака КРОК',
       imgPath: 'assets/images/c2-ui-demo.png',
       urls: ['https://www.loom.com/share/68b021f3378b4d56a37df0957fe32291', 'https://www.loom.com/share/a5b9f049a87145d3a4c1349454a4a2a8'],
