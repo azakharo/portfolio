@@ -7,7 +7,7 @@
       .margin-b-30
         h3.margin-b-5 {{ $ctrl.sample.name }}
         a.sample-url(ng-if="$ctrl.sample.url", href="{{ $ctrl.sample.url }}", target="_blank") Демо
-        a.sample-url(ng-if="$ctrl.sample.urls", href="{{ url }}", target="_blank" ng-repeat="url in $ctrl.sample.urls") Демо
+        a.sample-url(ng-if="$ctrl.sample.urls", href="{{ url }}", target="_blank" ng-repeat="url in $ctrl.sample.urls") Демо{{$index + 1}}
       .row
         .col-sm-8.work-popup-content-divider.sm-margin-b-20
           .margin-t-10.sm-margin-t-0

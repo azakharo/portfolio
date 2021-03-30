@@ -13,9 +13,13 @@ app.controller('SamplesCtrl', function ($timeout) {
     {
       name: 'Новая админка Cloudike',
       imgPath: 'assets/images/cloudike-admin-ui-users.png',
-      url: 'https://www.loom.com/share/57abda2591c1470db5e8e9209f820cd8',
+      urls: ['https://www.loom.com/share/57abda2591c1470db5e8e9209f820cd8',
+        'https://www.loom.com/share/2cfce33d39aa40b8b3834c6e4a37475d',
+        'https://www.loom.com/share/a81ed8deeb3a4d1887fa0fb4285d5d7e',
+        'https://www.loom.com/share/50194355a0d845839f12f0bf6ca4bfb8',
+      ],
       desc: 'Frontend на React.js. Material UI. Интерфейс для управления бэкендом Cloudike. Что такое Cloudike? - cloudike.com',
-      tags: ['React.js', 'material-ui', 'Redux', 'redux-thunk', 'Babel', 'Webpack', 'axios', 'i18next', 'eslint', 'prettier', 'dnd', 'jest', 'moment.js', 'formik + yup'],
+      tags: ['React.js', 'material-ui', 'Babel', 'Webpack', 'axios', 'react-query',  'i18next', 'eslint', 'prettier', 'dnd', 'jest', 'moment.js', 'formik + yup', 'recharts'],
       year: 2020,
       customer: 'ASD Technologies'
     },
