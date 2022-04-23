@@ -8,8 +8,20 @@ app.component('samples', {
 });
 
 app.controller('SamplesCtrl', function ($timeout) {
-
   this.samples = [
+    {
+      name: 'NovaKid - новый кабинет родителя',
+      imgPath: 'assets/images/novakid.jpg',
+      urls: ['https://disk.yandex.ru/i/ALLvxAb3ivADwg',
+        'https://disk.yandex.ru/i/GILAmZIT-oASHw',
+        'https://disk.yandex.ru/i/TE_Cel2rAHaABQ',
+        'https://disk.yandex.ru/i/_fWBaa9GtfjoLw',
+      ],
+      desc: 'Frontend на React.js и Material UI. Интерфейс для управления подпиской, бронирования уроков, мониторинга успехов ребёнка и т.д.',
+      tags: ['React.js', 'material-ui', 'react-query',  'i18next', 'create-react-app + craco', 'axios', 'eslint', 'prettier', 'dnd', 'jest', 'react-testing-library', 'date-fns', 'formik + yup'],
+      year: 2021,
+      customer: 'NovaKid'
+    },
     {
       name: 'Новая админка Cloudike',
       imgPath: 'assets/images/cloudike-admin-ui-users.png',
